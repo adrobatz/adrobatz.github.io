@@ -1,4 +1,7 @@
-body {background-color: black;}
-header {font-size: 50px; color: #f2839b;}
-h2 {font-size: 30px; color: #f2839b;}
-p{font-size: 20px; color: #f2839b;}
+body {background-color: #FFFFCC;}
+header {font-size: 50px; font-family: Verdana; color: #f2839b;}
+h2 {font-size: 30px; font-family: Verdana; color: #f2839b;}
+p{font-size: 15px; font-family: Arial; color: #f2839b;}
+h3 {font-size:20px; font-family: Verdana; color:#f2839b;}
+ul{font-size:12px; font-family: Garamond; color: #70DB93;}
+ol {font-size: 18px; font-family: Times; color: #006994;}
