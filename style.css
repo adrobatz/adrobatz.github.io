@@ -7,8 +7,8 @@ h1 {
 	color: #CCCCCC;
 	font-variant: small-caps;
 	font-weight: lighter;
-	letter-spacing: 15px;
-	width: 40%;
+	letter-spacing: 10px;
+	width: 30%;
 	float: left;
 	margin-left: 40px;
 	margin-bottom: 40px;
@@ -19,10 +19,12 @@ a {
 	color: #CCCCCC;
 	font-size: 18px;
 	font-weight: lighter;
-	float: right;
-	margin: 25px 5px 5px 5px;
 	text-decoration: none;
-	width: 10%;
+	float: right;
+	text-align: left;
+	margin-top: 40px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 img {
 	margin-top: -25px;
