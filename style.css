@@ -1,52 +1,131 @@
 body {
-	background-color: black;
+	width: 100%;
+	margin: 0 auto;
 }
-h1 {
-	font-size: 36px; 
-	font-family: Helvetica; 
-	color: #CCCCCC;
-	font-variant: small-caps;
-	font-weight: lighter;
-	letter-spacing: 10px;
+/*img {
 	width: 30%;
-	float: left;
-	margin-left: 40px;
-	margin-bottom: 40px;
+	height: auto;
+}*/
+h1 {
+	text-align: center;
 }
-a {
-	font-family: Helvetica;
-	font-variant: small-caps;
-	color: #CCCCCC;
-	font-size: 18px;
-	font-weight: lighter;
-	text-decoration: none;
-	float: right;
-	text-align: left;
-	margin-top: 40px;
-	margin-right: 25px;
-	margin-left: 25px;
+div:hover {
+	background-color: rgb(233,150,122);
+}
+div {
+display: block;
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+.row {
+	width: 100%;
+	display: inline-block;
+}
+.row img {
+	float: left;
 }
 img {
-	margin-top: -25px;
+width: 100%;
+height: auto;
 }
-
-footer{
-	clear: both;
-	width: 100%;
-	color: #CCCCCC;
-	font-family: Helvetica;
-	font-size: 10px;
-	font-weight: lighter;
-	text-align: center;
-	margin: 10px;
-
-}
-p {
-	font-size: 12px; 
-	font-family: Helvetica; 
-	color: #CCCCCC;
-	font-weight: lighter;
+.thirdwidth {
+	width: 33%;
 	float: left;
-	margin-left: 40px;
-	margin-bottom: 40px;
 }
+.halfwidth {
+	width: 50%;
+	float: left;
+}
+.fullwidth {
+	width: 100%;
+	float: left;
+}
+.quarterwidth {
+	width: 25%;
+	float: left;
+}
+
+
+@media screen and (max-width: 768px) {
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+div {
+display: block;
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+.row {
+	width: 100%;
+	display: inline-block;
+}
+.row img {
+	float: left;
+}
+img {
+width: 100%;
+height: auto;
+}
+.thirdwidth {
+	width: 100%;
+	float: left;
+}
+.halfwidth {
+	width: 100%;
+	float: left;
+}
+.fullwidth {
+	width: 100%;
+	float: left;
+}
+.quarterwidth {
+	width: 100%;
+	float: left;
+}
+}
+
+/*@media screen and (max-width: 480px) {
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+div {
+display: block;
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+.row {
+	width: 100%;
+	display: inline-block;
+}
+.row img {
+	float: left;
+}
+img {
+width: 100%;
+height: auto;
+}
+.halfwidth {
+	width: 100%;
+	float: left;
+}
+.fullwidth {
+	width: 100%;
+	float: left;
+}
+}*/
