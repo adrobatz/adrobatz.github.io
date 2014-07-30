@@ -8,8 +8,10 @@ body {
 }*/
 h1 {
 	text-align: center;
+	margin: 20px;
+	padding: 30px;
 }
-div:hover {
+.portfoliolink:hover {
 	background-color: rgb(233,150,122);
 }
 div {
