@@ -2,10 +2,6 @@ body {
 	width: 100%;
 	margin: 0 auto;
 }
-/*img {
-	width: 30%;
-	height: auto;
-}*/
 h1 {
 	text-align: center;
 	margin: 20px;
@@ -14,8 +10,64 @@ h1 {
 .portfoliolink:hover {
 	background-color: rgb(233,150,122);
 }
-div {
-display: block;
+.block1 {
+	display: inline-block;
+	height: 300px;
+	width: 100%;
+	background-color: rgb(174, 216, 230);
+	font-family: Courier New;
+	font-size: 30pt;
+	color: rgb(233,150,122);
+	font-variant: small-caps;
+	font-weight: lighter; 
+	text-align: center;
+	line-height: 7em;
+	letter-spacing: 2px;
+}
+.block2 {
+	display: inline-block;
+	height: 600px;
+	width: 100%;
+	background-color: rgb(174, 216, 230);
+	font-family: Courier New;
+	font-size: 30pt;
+	color: rgb(233,150,122);
+	font-variant: small-caps;
+	font-weight: lighter; 
+	text-align: center;
+	line-height: 14em;
+	letter-spacing: 2px;
+}
+.block3 {
+	display: inline-block;
+	height: 200px;
+	width: 100%;
+	background-color: rgb(174, 216, 230);
+	font-family: Courier New;
+	font-size: 20pt;
+	color: rgb(233,150,122);
+	font-variant: small-caps;
+	font-weight: lighter; 
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	letter-spacing: 2px;
+	vertical-align: baseline;
+}
+.previousexperience {
+	display: inline-block;
+	height: 200px;
+	width: 100%;
+	background-color: rgb(174, 216, 230);
+	font-family: Courier New;
+	font-size: 30pt;
+	color: rgb(233,150,122);
+	font-variant: small-caps;
+	font-weight: lighter; 
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	letter-spacing: 2px;
 }
 .wrapper {
 	width: 100%;
@@ -24,13 +76,6 @@ display: block;
 .row {
 	width: 100%;
 	display: inline-block;
-}
-.row img {
-	float: left;
-}
-img {
-width: 100%;
-height: auto;
 }
 .thirdwidth {
 	width: 33%;
@@ -44,10 +89,7 @@ height: auto;
 	width: 100%;
 	float: left;
 }
-.quarterwidth {
-	width: 25%;
-	float: left;
-}
+
 
 
 @media screen and (max-width: 768px) {
@@ -69,13 +111,6 @@ display: block;
 .row {
 	width: 100%;
 	display: inline-block;
-}
-.row img {
-	float: left;
-}
-img {
-width: 100%;
-height: auto;
 }
 .thirdwidth {
 	width: 100%;
