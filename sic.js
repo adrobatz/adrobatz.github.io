@@ -1,26 +1,21 @@
 $(document).ready(function() {
 	// Code here
+	$('#slide-nav a').click(function(e) {
+		e.preventDefault();
+		var id=$(this).data('id');
 
-	$('#dog').click(function(e) {
+		$.get(id+'.html', function(data) {
+			$('div#slideshow').html(data);
+		});
+	});
+
+	$('nav a').click(function(e) {
 		e.preventDefault();
+		var adj = $(this).data('adj');
 	
-	$('html, body').animate({
-            scrollTop: $('#h2-dog').offset().top
-        }, 'slow');
-    });
-	$('#pig').click(function(e) {
-		e.preventDefault();
-	
-	$('html, body').animate({
-            scrollTop: $('#h2-pig').offset().top
-        }, 'slow');
-    });
-	$('#cow').click(function(e) {
-		e.preventDefault();
-	
-	$('html, body').animate({
-            scrollTop: $('#h2-cow').offset().top
-        }, 'slow');
+		$('html, body').animate({
+	            scrollTop: $('#'+adj).offset().top
+	        }, 'slow');
     });
 });
 
