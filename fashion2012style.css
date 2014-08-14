@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end clear*/
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	padding: 5%;
+	margin: 5%;
+}
+h1 {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 50px;
+}
+h2 {
+	text-align: center;
+}
+#container1 {
+	width: 33%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+#container2 {
+	width: 33%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+#container3 {
+	width: 33%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+.pic {
+	width: 90%;
+	height: 90%;
+	background-color: rgb(174, 216, 230);
+	padding: 5%;
+	vertical-align: center;
+
+}
+.verticalpic {
+	width: 70%;
+	height: 70%;
+	padding: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: rgb(174, 216, 230);
+	vertical-align: center;
+	
+}
+
+@media screen and (max-width: 768px) {
+	body {
+	width: 100%;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 50px;
+}
+h2 {
+	text-align: center;
+}
+#container1 {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+#container2 {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+#container3 {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+.pic {
+	width: 90%;
+	height: 90%;
+	background-color: rgb(174, 216, 230);
+	padding: 5%;
+	vertical-align: center;
+}
+.verticalpic {
+	width: 70%;
+	height: 70%;
+	padding: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: rgb(174, 216, 230);
+	vertical-align: center;
+
+}

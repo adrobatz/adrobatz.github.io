@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<title></title>
+		<style>
+		a {
+			font-color: red;
+		}
+
+		b {
+			background-color: green;
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>This is my page title</h1>
+
+		
+
+		<p>This is a simple paragraph</p>
+
+		<ul>
+			<li>dummy</li>
+			<li>HTML</li>
+			<li>goes</li>
+			<li>here</li>
+		</ul>
+
+		<script>
+			SI = function(sel) {
+				if (!(this instanceof SI)) return new SI(sel);
+				this.name = 'SI';
+				this.sel = sel;
+				this.collection = [];
+				
+				if(!!sel) {
+					//if it's a node
+					if (sel instanceof Node) {
+						this.collection = [sel];
+					} else {
+					//if it's a string
+
+					this.collection = document.querySelectorAll(sel);
+					}
+				}
+				
+				for(i=0; i<this.collection.length; i++) {
+					this[i] = this.collection[i];
+				}
+				this.length = this.collection.length;
+
+				return this;
+			}
+
+			SI.prototype.hide = function() {
+				//for(i=0; i<this.length; i++) {
+				//	this[i].style.display = 'none';
+				//}
+			
+
+			this.each(function(el) {
+				el.style.display = 'none';
+			});
+			return this;
+			}
+
+			SI.prototype.show = function () {
+				
+				for (i=0; i<this.length; i++) {
+					this[i].style.display = 'block';
+				}
+				return this;
+			}	
+
+			SI.prototype.eq = function(n) {
+
+				return this[n];
+
+			}
+
+			SI.prototype.get = function(n) {
+
+				return SI(this[n]);
+			}
+
+			SI.prototype.each = function(cb) {
+				
+				for (i=0; i<this.length; i++) {
+					cb.call(this[i], this[i]);
+				}
+				return this;
+			}
+			
+			SI.prototype.css = function (key,val) {
+				//if we get a value, set the key to value
+				//otherwise give back first element value
+
+				if (!!val) {
+
+					this.each(function(el) {
+						el.style[key] = val;
+					});
+
+				} else {
+					return this[0].style[key];
+				}
+
+				return this;
+			}
+
+
+			SI.prototype.addClass = function(cn) {
+
+				this.removeClass(cn);
+				this.each(function(el) {
+					el.className = el.className + ' ' + cn;
+				});
+				return this;
+			}
+
+			SI.prototype.removeClass = function(cn) {
+
+
+				this.each(function(el) {
+					el.className = el.className.replace('/\W'+cn+'\W/g', '');
+				});
+				return this;
+
+			}
+
+		</script>
+	</body>
+</html>

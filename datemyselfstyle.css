@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end clear*/
+
+body {
+	background-color: black;
+}
+.main {
+	background-color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-color: black;
+	margin: 5%;
+	padding: 10em 1em 10em 1em;
+}
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+h2 {
+	font-size: 65px;
+	text-align: center;
+}
+.relationship {
+	display: inline-block;
+  	line-height: normal;  
+  	float: left;
+	font-family: sans-serif;
+	margin: -10% 15% 0% 35%;
+	padding: 1em;
+	text-align: center;
+	vertical-align: middle;
+}
+.button {
+	background-color: black;
+	color: white;
+	float: left;
+	margin: -9.25% 25% 0% 54%;
+	padding: .5em;	
+}
+.sweatshirt {
+	color: white;
+	display: inline-block;
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: normal;  
+	text-align: center;
+  	vertical-align: middle;  
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		text-align: center;
+		width: 100%;
+	}
+	h2 {
+		text-align: center;
+		width: 100%;
+	}
+	.relationship {
+		margin: -25% 25% 10% 30%;
+	}
+	.button {
+		float: left;
+		margin: -15% 40% 10% 40%;
+	}
+	}
+@media screen and (max-width: 480px) {
+	body {
+		width: 100%;
+	}
+	h1 {
+		text-align: center;
+		width: 100%;
+	}
+	h2 {
+		text-align: center;
+		width: 100%;
+	}
+	.relationship {
+		float: left;
+		margin: -35% 25% 10% 25%;
+	}
+	.button {
+		float: left;
+		margin: -20% 40% 10% 40%;
+	}
+}
