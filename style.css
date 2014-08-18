@@ -65,7 +65,7 @@ h1 {
 	margin: 5% 5% 5% 5%;
 	font-size: 60px;
 }
-p {
+.home {
 	font-family: helvetica;
 	font-weight: lighter;
 	padding: 1% 25% 5% 25%;
@@ -81,11 +81,85 @@ a {
 a:hover {
 	color: rgb(233, 150, 122)	;
 }
+.arrow {
+	width: auto;
+	float: left;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+.arrow2 {
+	width: auto;
+	float: left;
+	margin-left: 40%;
+	margin-right: 40%;
+}
 
-
-
-
-
+/*.........*/
+.title {
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	font-size: 40px;
+}
+.sketch {
+	width: 100%;
+}
+.research {
+	width: 100%;
+}
+.prototype {
+	width: 60%;
+	margin-left: 25%;
+}
+.drawings {
+	width: 100%;
+}
+.render {
+	width: 100%;
+}
+.layout {
+	width: 100%;
+}
+.paragraph {
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 16px;
+	margin-top: 125px;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+.paragraph2 {
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 16px;
+	margin-top: 100px;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+.heading {
+	font-family: 'Sacramento', cursive;
+	font-size: 40px;
+}
+.container-fluid {
+	width: 100%;
+	height: 50px;
+}
+.SIC {
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	font-size: 40px;
+}
+.SICparagraph {
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 16px;
+	text-align: center;
+}
 
 
 
@@ -109,163 +183,7 @@ a:hover {
 
 
 /*
-.wrapper {
-	width: 100%;
-	margin: 0, auto;
-}
-.row {
-	width: 100%;
-	display: inline-block;
-}
-.portfoliolink:hover {
-	background-color: rgb(233,150,122);
-}
-.block1 {
-	display: inline-block;
-	height: 300px;
-	width: 100%;
-	background-color: rgb(174, 216, 230);
-	font-family: Courier New;
-	font-size: 30pt;
-	color: rgb(233,150,122);
-	font-variant: small-caps;
-	font-weight: lighter; 
-	text-align: center;
-	line-height: 7em;
-	letter-spacing: 2px;
-}
-.block2 {
-	display: inline-block;
-	height: 600px;
-	width: 100%;
-	background-color: rgb(174, 216, 230);
-	font-family: Courier New;
-	font-size: 30pt;
-	color: rgb(233,150,122);
-	font-variant: small-caps;
-	font-weight: lighter; 
-	text-align: center;
-	line-height: 14.8em;
-	letter-spacing: 2px;
-}
-.block3 {
-	display: inline-block;
-	height: 100px;
-	width: 100%;
-	background-color: rgb(174, 216, 230);
-	font-family: Courier New;
-	font-size: 20pt;
-	color: rgb(233,150,122);
-	font-variant: small-caps;
-	font-weight: lighter; 
-	text-align: center;
-	line-height: 1.25em;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	letter-spacing: 2px;
-	vertical-align: baseline;
-}
-.previousexperience {
-	display: inline-block;
-	height: 200px;
-	width: 100%;
-	background-color: rgb(174, 216, 230);
-	font-family: Courier New;
-	font-size: 30pt;
-	color: rgb(233,150,122);
-	font-variant: small-caps;
-	font-weight: lighter; 
-	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	letter-spacing: 2px;
-}
-.thirdwidth {
-	width: 33%;
-	float: left;
-}
-.halfwidth {
-	width: 50%;
-	float: left;
-}
-.fullwidth {
-	width: 100%;
-	float: left;
-}
-
-
-
 @media screen and (max-width: 768px) {
-body {
-	width: 100%;
-	margin: 0 auto;
 }
-img {
-	width: 100%;
-	height: auto;
-}
-div {
-display: block;
-}
-.wrapper {
-	width: 100%;
-	margin: auto;
-}
-.row {
-	width: 100%;
-	display: inline-block;
-}
-.thirdwidth {
-	width: 100%;
-	float: left;
-}
-.halfwidth {
-	width: 100%;
-	float: left;
-}
-.fullwidth {
-	width: 100%;
-	float: left;
-}
-.quarterwidth {
-	width: 100%;
-	float: left;
-}
-}
-
-/*@media screen and (max-width: 480px) {
-body {
-	width: 100%;
-	margin: 0 auto;
-}
-img {
-	width: 100%;
-	height: auto;
-}
-div {
-display: block;
-}
-.wrapper {
-	width: 100%;
-	margin: auto;
-}
-.row {
-	width: 100%;
-	display: inline-block;
-}
-.row img {
-	float: left;
-}
-img {
-width: 100%;
-height: auto;
-}
-.halfwidth {
-	width: 100%;
-	float: left;
-}
-.fullwidth {
-	width: 100%;
-	float: left;
-}
-}*/
+@media screen and (max-width: 480px) {
+*/
