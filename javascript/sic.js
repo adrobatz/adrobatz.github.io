@@ -4,9 +4,9 @@ $(document).ready(function() {
 		e.preventDefault();
 		var id=$(this).data('id');
 
-		$.get(id+'.html', function(data) {
-			$('div#slideshow').html(data);
-		});
+		//$.get(id+'.html', function(data) {
+		//	$('div#slideshow').html(data);
+		//});
 	});
 
 	$('nav a').click(function(e) {
